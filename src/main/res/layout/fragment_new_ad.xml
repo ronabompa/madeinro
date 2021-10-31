@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+
+</data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.NewAdFragment">
+
+        <ImageButton
+            android:id="@+id/backNewAdButton"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:background="@color/white"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_back_green_transp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.04" />
+
+
+        <Button
+            android:id="@+id/addNewAdButton"
+            android:layout_width="310dp"
+            android:layout_height="53dp"
+            android:backgroundTint="@color/green_500"
+            android:text="@string/adaug_anun"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.958" />
+
+        <Button
+            android:id="@+id/addNewAdLocationButton"
+            android:layout_width="191dp"
+            android:layout_height="38dp"
+            android:backgroundTint="@color/green_200"
+            android:text="@string/adauga_loca_ie"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.927"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.391" />
+
+        <Button
+            android:id="@+id/addNewAdProductButton"
+            android:layout_width="173dp"
+            android:layout_height="39dp"
+            android:backgroundTint="@color/green_700"
+            android:text="@string/adauga_produse"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.391" />
+
+        <EditText
+            android:id="@+id/nameNewAdEditText"
+            android:layout_width="282dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="504dp"
+            android:ems="10"
+            android:hint="@string/nume_stand"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.439" />
+
+        <EditText
+            android:id="@+id/observationsNewAdEditText"
+            android:layout_width="285dp"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Indicații/Observații locație"
+            android:inputType="textMultiLine"
+            app:layout_constraintBottom_toTopOf="@+id/productsNewAdRecylerView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameNewAdEditText"
+            app:layout_constraintVertical_bias="0.223" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/productsNewAdRecylerView"
+            android:layout_width="409dp"
+            android:layout_height="309dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.758" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

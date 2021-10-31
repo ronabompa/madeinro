@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+
+</data>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.SellerHomeFragment">
+
+
+    <Button
+        android:id="@+id/gestionareAnunturiButton"
+        android:layout_width="329dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
+        android:text="Gestionare Anunțuri"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/istoricSolicitariButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solicitariNoiRecyclerView"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <Button
+        android:id="@+id/istoricSolicitariButton"
+        android:layout_width="329dp"
+        android:layout_height="56dp"
+        android:text="Istoric Solicitări"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solicitariNoiRecyclerView"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/solicitariNoiRecyclerView"
+        android:layout_width="408dp"
+        android:layout_height="444dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/noiSolicitariTextView"
+        android:layout_width="151dp"
+        android:layout_height="26dp"
+        android:text="Noi solicitări"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/solicitariNoiRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <Button
+        android:id="@+id/logOutSellerButton"
+        android:layout_width="82dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/green_700"
+        android:padding="2dp"
+        android:text="@string/log_out"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/solicitariNoiRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toEndOf="@+id/noiSolicitariTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

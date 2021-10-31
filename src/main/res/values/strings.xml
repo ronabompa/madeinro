@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">madeinro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Strings related to login -->
+    <string name="continua">Continuă</string>
+    <string name="bun_venit">Bun venit!</string>
+    <string name="permission_text"> Accesarea locației dvs. este esențială pentru navigabilitatea în cadrul aplicației Made in Ro. Dacă sunteși de acord să vă accesăm locația, va rugăm să apăsați pe butonul "Continuă". Multumim! </string>
+    <string name="todo">TODO</string>
+    <string name="TODO">TODO</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="email">Email</string>
+    <string name="parola">Parola</string>
+    <string name="login">LOGIN</string>
+    <string name="not_a_member_login_text">Nu ești încă membru? Te poți înregistra aici! </string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="repeta_parola">Repetă parola</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_name">nume_produs</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="gestionare_utilizatori">Gestionare Utilizatori</string>
+    <string name="gestionare_produse">Gestionare Produse</string>
+    <string name="sugestii_observa_ii">Sugestii/Observații</string>
+    <string name="descriere">Descriere</string>
+    <string name="categorie">Categorie</string>
+    <string name="nume">Nume</string>
+    <string name="adaug">Adaugă</string>
+    <string name="narc">Încarcă</string>
+    <string name="todo_todo">TODO</string>
+    <string name="adaug_anun">ADAUGĂ ANUNȚ</string>
+    <string name="indica_ii_observa_ii">Indicații/Observații</string>
+    <string name="nume_stand">Nume stand</string>
+    <string name="adauga_locatie">Adauga Locatie</string>
+    <string name="adauga_produse">Adaugă produs</string>
+    <string name="adauga_loca_ie">Adaugă locație</string>
+    <string name="adauga_produs">Adauga produs</string>
+    <string name="pre">Preț</string>
+    <string name="cantitate_maxim">Cantitate maximă</string>
+    <string name="numar_de_telefon">Numar de telefon</string>
+    <string name="nume_de_familie">Nume de familie</string>
+    <string name="metode_de_plat">Metode de plată</string>
+    <string name="salveaz_actualiz_rile">Salvează actualizările</string>
+    <string name="profil">Profil</string>
+    <string name="editeaza_profilul">Editează profilul</string>
+    <string name="terge_profilul">Șterge profilul</string>
+    <string name="administrator">Administrator</string>
+    <string name="cont">Cont</string>
+    <string name="observa_ii_sugestii_c_tre_administrator">Observații/Sugestii către administrator</string>
+    <string name="titlu">Titlu</string>
+    <string name="mesaj">Mesaj</string>
+    <string name="afine">Afine</string>
+    <string name="delete">Delete</string>
+    <string name="terge">Șterge</string>
+    <string name="cenzur_10_zile">Cenzură 10 zile</string>
+    <string name="prenumele">Prenumele</string>
+    <string name="numele_de_familie">Numele de familie</string>
+    <string name="comerciant">Comerciant</string>
+    <string name="client">Client</string>
+    <string name="trimite">Trimite</string>
+    <string name="trimie_comanda">Trimie comanda</string>
+</resources>

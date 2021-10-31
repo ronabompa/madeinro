@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools">
+
+<data>
+
+</data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.NewProductAdFragment">
+
+        <ImageButton
+            android:id="@+id/backNewProductAdButton"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:background="@color/white"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_back_green_transp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.04" />
+
+
+        <Button
+            android:id="@+id/newProductAdAddButton"
+            android:layout_width="249dp"
+            android:layout_height="43dp"
+            android:backgroundTint="@color/green_500"
+            android:text="@string/adauga_produs"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.438"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.898" />
+
+        <EditText
+            android:id="@+id/priceNewProductAdEditText"
+            android:layout_width="282dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:hint="@string/pre"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.395"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.661" />
+
+        <EditText
+            android:id="@+id/quantityNewProductAdEditText"
+            android:layout_width="285dp"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/cantitate_maxim"
+            android:inputType="textMultiLine"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.404"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/newProductAdRecylerView"
+            android:layout_width="410dp"
+            android:layout_height="341dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
