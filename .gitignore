@@ -9,6 +9,4 @@
 .cxx
 local.properties
 /app/build/
-build.gradle
 google-service.json
-proguard-rules.pro
